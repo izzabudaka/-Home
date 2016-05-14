@@ -2,7 +2,7 @@ var twilio = require('twilio');
 var twilioClient = new twilio.RestClient('ACfec6001ff128b28a1c575e56a1f56798', 'f43804e468c4894bcb7a2f9b44cb4bbc');
 
 this.sendMessage = function(textMessage){
-    client.sms.messages.create({
+    twilioClient.sms.messages.create({
         to:'+44 7713935655',
         from:'+44 1227 641117',
         body: textMessage

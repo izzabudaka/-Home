@@ -5,7 +5,7 @@ var services           = ["temperature"];
 this.delegateMessage = function(parsedMessage, callback) {
   var serviceId;
   console.log(parsedMessage);
-  for(serviceId = 0; serviceId < services.length; i++)
+  for(serviceId = 0; serviceId < services.length; serviceId++)
     if(parsedMessage["intent"].indexOf(services[serviceId]) > -1) break;
   switch(serviceId){
     case 0: temperatureService.run(parsedMessage, callback);

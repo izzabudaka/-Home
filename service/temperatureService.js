@@ -13,7 +13,7 @@ var getTemperature = function(callback) {
       method: "GET"
     }, function (err, res, body) {
       var temperatureInfo = JSON.parse(body);
-      var temperature = temperatureInfo["sensors"]["temperature"]["current"]["Celsius"];
+      var temperature = temperatureInfo["Sensors"]["Temperature"]["Current"]["Celsius"];
       callback(temperature);
     });
 }
