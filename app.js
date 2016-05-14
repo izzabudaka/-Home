@@ -37,7 +37,6 @@ dispatcher.onPost("/text", function(req, res) {
 dispatcher.onPost("/delegate", function(req, res) {
     var message = req.body;
     console.log(message);
-    nlpService.parseMessage(message, function(parsedMessage){
-        res.end(JSON.stringify(parsedMessage));
-    });
+    twilioService.sendMessage(message);
+    res.end("recieved");
 }); 
