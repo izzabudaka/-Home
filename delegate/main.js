@@ -5,6 +5,7 @@ var http = require('http');
 var app = http.createServer(handler);
 var io = require('socket.io')(app);
 var temp = require('./lib/tempReader');
+var airQuality = require("./lib/airReader");
 //var pushover = require('./lib/pushover');
 var server = require('./lib/serverMasterSender');
 
