@@ -14,7 +14,7 @@ var getTempReadout = function(callback) {
     console.log("Reading Temp - Celsius Temperature " + celsius_temperature); 
     var fahrenheit_temperature = (celsius_temperature * (9 / 5)) + 32;
 
-    var json = JSON.stringify({ 
+    var json = { 
         SystemInfo : {
             CurrentTime: new Date().toISOString(),
         },
@@ -26,15 +26,14 @@ var getTempReadout = function(callback) {
                 }
             }
         }
-    }, null, '\t');
+    };
     callback(json);
 };
 
 this.getTempReadout = getTempReadout;
 
 setInterval(function(){
-        getTempReadout( function(currentTempString){
-            var currentTemp = JSON.parse(currentTempString);
+        getTempReadout( function(currentTemp){
             if(currentTemp.Sensors.Temperature.Current.Celsius > 30)  {
                 server.sendNotification("Temperature is " + currentTemp.Sensors.Temperature.Current.Celsius + "C.");
             }

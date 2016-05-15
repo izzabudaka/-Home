@@ -11,8 +11,8 @@
         "name": "-athome.xdk"
       },
       "-athome.xdke": {
-        "previousModTime": 1463283774710,
-        "modified": 1463283774710,
+        "previousModTime": 1463284489309,
+        "modified": 1463284489309,
         "seen": true,
         "name": "-athome.xdke"
       },
@@ -65,8 +65,8 @@
         "name": "xdk/project-info.json"
       },
       "lib/tempReader.js": {
-        "previousModTime": 1463283884617,
-        "modified": 1463283884617,
+        "previousModTime": 1463284331872,
+        "modified": 1463284331872,
         "seen": true,
         "name": "lib/tempReader.js"
       },
@@ -113,8 +113,8 @@
         "name": "lib/lightReader_original.js"
       },
       "lib/lightReader_send.js": {
-        "previousModTime": 1463282972639,
-        "modified": 1463282972639,
+        "previousModTime": 1463284567945,
+        "modified": 1463284567945,
         "seen": true,
         "name": "lib/lightReader_send.js"
       },
@@ -132,8 +132,8 @@
       }
     },
     "boardFileStatus": {
-      "lib/tempReader.js": {
-        "previousModTime": 1463283887416
+      "lib/lightReader_send.js": {
+        "previousModTime": 1463284593760
       }
     }
   }
