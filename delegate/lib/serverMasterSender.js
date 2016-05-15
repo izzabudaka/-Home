@@ -1,6 +1,7 @@
 /*jslint node:true,vars:true,bitwise:true,unparam:true */
 
 var request = require('request');
+var server =  require('./serverMasterSender');
 
 // Set the headers
 var headers = {
