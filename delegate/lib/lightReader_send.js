@@ -1,5 +1,5 @@
 var client = require("./serverMasterSender");
-var light  = new (require('jsupm_grove').GroveLight)(0);
+var light  = new (require('jsupm_grove').GroveLight)(2);
 
 var threshold = 300;
 var prev = 0;
@@ -17,6 +17,7 @@ setInterval(function() {
     var rawvalue = light.raw_value();
     if (rawvalue > 600 && prev !== 0) { alert(rawvalue); }
     prev = rawvalue;
+    console.log(rawvalue);
 }, 1000);
 
 

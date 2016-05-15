@@ -12,11 +12,16 @@
       },
       "-athome.xdke": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "previousModTime": 1463249866670,
         "modified": 1463249866670,
 =======
         "previousModTime": 1463279847697,
         "modified": 1463279847697,
+>>>>>>> master
+=======
+        "previousModTime": 1463284489309,
+        "modified": 1463284489309,
 >>>>>>> master
         "seen": true,
         "name": "-athome.xdke"
@@ -35,11 +40,16 @@
       },
       "main.js": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "previousModTime": 1463249521048,
         "modified": 1463249521048,
 =======
         "previousModTime": 1463279788293,
         "modified": 1463279788293,
+>>>>>>> master
+=======
+        "previousModTime": 1463283482408,
+        "modified": 1463283482408,
 >>>>>>> master
         "seen": true,
         "name": "main.js"
@@ -63,30 +73,35 @@
         "name": "tempReader.js"
       },
       "lib/pushover.js": {
-        "previousModTime": 1463246058701,
-        "modified": 1463246058701,
+        "previousModTime": 1463282286178,
+        "modified": 1463282286178,
         "seen": true,
         "name": "lib/pushover.js"
       },
       "xdk/project-info.json": {
-        "previousModTime": 1463278872135,
-        "modified": 1463278872135,
+        "previousModTime": 1463282972644,
+        "modified": 1463282972644,
         "seen": true,
         "name": "xdk/project-info.json"
       },
       "lib/tempReader.js": {
-        "previousModTime": 1463279655003,
-        "modified": 1463279655003,
+        "previousModTime": 1463284331872,
+        "modified": 1463284331872,
         "seen": true,
         "name": "lib/tempReader.js"
       },
       "lib/serverMasterSender.js": {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "previousModTime": 1463247389867,
         "modified": 1463247389867,
 =======
         "previousModTime": 1463279191976,
         "modified": 1463279191976,
+>>>>>>> master
+=======
+        "previousModTime": 1463282972640,
+        "modified": 1463282972640,
 >>>>>>> master
         "seen": true,
         "name": "lib/serverMasterSender.js"
@@ -98,6 +113,7 @@
         "name": "lib/accelerometer.js"
       },
       "lib/airReader.js": {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "previousModTime": 1463249876249,
         "modified": 1463249876249,
@@ -111,24 +127,28 @@
 =======
         "previousModTime": 1463279212497,
         "modified": 1463279212497,
+=======
+        "previousModTime": 1463282972636,
+        "modified": 1463282972636,
+>>>>>>> master
         "seen": true,
         "name": "lib/airReader.js"
       },
       "Home.xdk": {
-        "previousModTime": 1463278872120,
-        "modified": 1463278872120,
+        "previousModTime": 1463282972634,
+        "modified": 1463282972634,
         "seen": true,
         "name": "Home.xdk"
       },
       "Home.xdke": {
-        "previousModTime": 1463278872121,
-        "modified": 1463278872121,
+        "previousModTime": 1463282972635,
+        "modified": 1463282972635,
         "seen": true,
         "name": "Home.xdke"
       },
       "lib/delegateManager.js": {
-        "previousModTime": 1463279919502,
-        "modified": 1463279919502,
+        "previousModTime": 1463283608577,
+        "modified": 1463283608577,
         "seen": true,
         "name": "lib/delegateManager.js"
       },
@@ -139,14 +159,14 @@
         "name": "lib/lightReader_original.js"
       },
       "lib/lightReader_send.js": {
-        "previousModTime": 1463278872129,
-        "modified": 1463278872129,
+        "previousModTime": 1463284567945,
+        "modified": 1463284567945,
         "seen": true,
         "name": "lib/lightReader_send.js"
       },
       "sensors/airQuality.js": {
-        "previousModTime": 1463278872133,
-        "modified": 1463278872133,
+        "previousModTime": 1463282972642,
+        "modified": 1463282972642,
         "seen": true,
         "name": "sensors/airQuality.js"
       },
@@ -158,8 +178,13 @@
       }
     },
     "boardFileStatus": {
+<<<<<<< HEAD
       "lib/delegateManager.js": {
         "previousModTime": 1463279925247
+>>>>>>> master
+=======
+      "lib/lightReader_send.js": {
+        "previousModTime": 1463284593760
 >>>>>>> master
       }
     }
