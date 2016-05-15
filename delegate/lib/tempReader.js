@@ -30,6 +30,8 @@ var getTempReadout = function(callback) {
     callback(json);
 };
 
+this.getTempReadout = getTempReadout;
+
 setInterval(function(){
         getTempReadout( function(currentTempString){
             var currentTemp = JSON.parse(currentTempString);

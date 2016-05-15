@@ -29,6 +29,7 @@ function handler (request, response) {
     getPostBody(request, function(message){
         response.writeHead(200, {"Content-Type": "application/json"});
         delegateManager.run(message, function(result){
+            console.log(result);
             response.end(JSON.stringify(result));
         });
     });
