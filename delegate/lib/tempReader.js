@@ -2,6 +2,7 @@
 
 var B = 3975;
 var mraa = require("mraa");
+var server = require("./serverMasterSender");
 
 var tempSensorPort = 0;
 var tempSensorAioPort = new mraa.Aio(tempSensorPort);
@@ -30,8 +31,10 @@ var getTempReadout = function(callback) {
 };
 
 setInterval(function(){
-    var currentTemperature = getTempReadout();
-    if(currentTemperature.Celsius > 30)  {
-        server.sendNotification("Temperature is " + currentTemperature.Celsius + "C.");
-    }
+        getTempReadout( function(currentTempString){
+            var currentTemp = JSON.parse(currentTempString);
+            if(currentTemp.Sensors.Temperature.Current.Celsius > 30)  {
+                server.sendNotification("Temperature is " + currentTemp.Sensors.Temperature.Current.Celsius + "C.");
+            }
+        });
 }, 1000);

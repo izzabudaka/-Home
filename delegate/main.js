@@ -1,16 +1,17 @@
+/*jslint node:true,vars:true,bitwise:true,unparam:true */
+
 var http = require('http');
 var delegateManager = require('./lib/delegateManager');
 
 require("./lib/airReader");
 require("./lib/tempReader");
-require("./lib/lightReader_send");
 
 console.log("Starting nodejs server.");
 
 function handler (request, response) {
     'use strict';
     console.log("Server readout requested.");
-    var message = JSON.parse(body);
+    var message = JSON.parse(request);
     response.writeHead(200, {"Content-Type": "application/json"});
     delegateManager.run(message, function(result){
         response.end(JSON.stringify(result));

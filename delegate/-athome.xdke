@@ -11,8 +11,8 @@
         "name": "-athome.xdk"
       },
       "-athome.xdke": {
-        "previousModTime": 1463247179392,
-        "modified": 1463247179392,
+        "previousModTime": 1463279847697,
+        "modified": 1463279847697,
         "seen": true,
         "name": "-athome.xdke"
       },
@@ -29,14 +29,14 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1463247052851,
-        "modified": 1463247052851,
+        "previousModTime": 1463279788293,
+        "modified": 1463279788293,
         "seen": true,
         "name": "main.js"
       },
       "package.json": {
-        "previousModTime": 1463245067606,
-        "modified": 1463245067606,
+        "previousModTime": 1463249509872,
+        "modified": 1463249509872,
         "seen": true,
         "name": "package.json"
       },
@@ -59,24 +59,82 @@
         "name": "lib/pushover.js"
       },
       "xdk/project-info.json": {
-        "previousModTime": 1463234688487,
-        "modified": 1463234688487,
+        "previousModTime": 1463278872135,
+        "modified": 1463278872135,
         "seen": true,
         "name": "xdk/project-info.json"
       },
       "lib/tempReader.js": {
-        "previousModTime": 1463246353964,
-        "modified": 1463246353964,
+        "previousModTime": 1463279655003,
+        "modified": 1463279655003,
         "seen": true,
         "name": "lib/tempReader.js"
       },
       "lib/serverMasterSender.js": {
-        "previousModTime": 1463246988299,
-        "modified": 1463246988299,
+        "previousModTime": 1463279191976,
+        "modified": 1463279191976,
         "seen": true,
         "name": "lib/serverMasterSender.js"
+      },
+      "lib/accelerometer.js": {
+        "previousModTime": 1463248795978,
+        "modified": 1463248795978,
+        "seen": true,
+        "name": "lib/accelerometer.js"
+      },
+      "lib/airReader.js": {
+        "previousModTime": 1463279212497,
+        "modified": 1463279212497,
+        "seen": true,
+        "name": "lib/airReader.js"
+      },
+      "Home.xdk": {
+        "previousModTime": 1463278872120,
+        "modified": 1463278872120,
+        "seen": true,
+        "name": "Home.xdk"
+      },
+      "Home.xdke": {
+        "previousModTime": 1463278872121,
+        "modified": 1463278872121,
+        "seen": true,
+        "name": "Home.xdke"
+      },
+      "lib/delegateManager.js": {
+        "previousModTime": 1463279919502,
+        "modified": 1463279919502,
+        "seen": true,
+        "name": "lib/delegateManager.js"
+      },
+      "lib/lightReader_original.js": {
+        "previousModTime": 1463278872128,
+        "modified": 1463278872128,
+        "seen": true,
+        "name": "lib/lightReader_original.js"
+      },
+      "lib/lightReader_send.js": {
+        "previousModTime": 1463278872129,
+        "modified": 1463278872129,
+        "seen": true,
+        "name": "lib/lightReader_send.js"
+      },
+      "sensors/airQuality.js": {
+        "previousModTime": 1463278872133,
+        "modified": 1463278872133,
+        "seen": true,
+        "name": "sensors/airQuality.js"
+      },
+      "lib/lightReader.js": {
+        "previousModTime": 1463278299303,
+        "modified": 1463278299303,
+        "seen": true,
+        "name": "lib/lightReader.js"
       }
     },
-    "boardFileStatus": {}
+    "boardFileStatus": {
+      "lib/delegateManager.js": {
+        "previousModTime": 1463279925247
+      }
+    }
   }
 }
