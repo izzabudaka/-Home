@@ -3,6 +3,7 @@
 var http = require('http');
 var delegateManager = require('./lib/delegateManager');
 
+require("./lib/lightReader_send");
 require("./lib/airReader");
 require("./lib/tempReader");
 

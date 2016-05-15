@@ -1,10 +1,10 @@
 /*jslint node:true,vars:true,bitwise:true,unparam:true */
 
-var B = 3975;
-var mraa = require("mraa");
+var B      = 3975;
+var mraa   = require("mraa");
 var server = require("./serverMasterSender");
 
-var tempSensorPort = 0;
+var tempSensorPort    = 0;
 var tempSensorAioPort = new mraa.Aio(tempSensorPort);
 
 var getTempReadout = function(callback) {
