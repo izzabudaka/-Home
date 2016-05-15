@@ -14,6 +14,6 @@ this.run = function(parsedMessage, callback) {
   switch(delegateId) {
     case 0: temp.getTempReadout(callback); break;
     case 1: light.getLight(callback); break;
-    case 2: lcd.setMessage(callback); break;
+    case 2: lcd.setMessage(parsedMessage, callback); break;
   }
 };
