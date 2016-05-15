@@ -1,5 +1,7 @@
 var request            = require('request');
 var temperatureService = require('./temperatureService');
+var lightService       = require('./lightService');
+var lcdService         = require('./lcdService');
 var services           = ["temperature"];
 
 this.delegateMessage = function(parsedMessage, callback) {
@@ -9,5 +11,7 @@ this.delegateMessage = function(parsedMessage, callback) {
     if(parsedMessage["intent"].indexOf(services[serviceId]) > -1) break;
   switch(serviceId){
     case 0: temperatureService.run(parsedMessage, callback);
+    case 1: lightService.run(parsedMessage, callback);
+    case 2: lcdService.run(parsedMessage, callback);
   }
 }
