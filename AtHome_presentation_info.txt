@@ -1,0 +1,27 @@
+@Home 
+
+Smart home system.
+
+Explain how it works:
+
+Scenario:
+Want to find out what is happening at home when not there, and communicate with family at home.
+Solutions:
+Use Grove Starter Kit Plus Intel IoT Edition temperature and light sensors, combined with a PIR motion sensor and Logitech webcam.
+Javascript/NodeJS codes for setting conditions for responses.
+Use Twilio API to receive and send text messages. 
+Natural Language Processing codes to understand the context of the questions in the text message. 
+
+Features:
+Temperature: When a user sends a text message from the phone to ask for the home temperature, the sensor detect the real time temperature and 
+sends back a text with the temperature.  
+Light: Detects tge light level at home, and send a message to tell the user if the light is on or off, and also the light level.
+Motion: When a person goes past a motion sensor, a picture is taken from a Logitech webcam, with the image files stored locally. Will aim to send picture to the cloud and send a text message
+to the phone.
+LCD: The LCD display at home can display messages sent from the user's phone, telling his family updates.
+------
+Message from Hugo of BeMyApp (hackathon organiser):
+Need to create a page at Instructables, add keyword "Intel IoT," and copy URL link of our project page.
+Write with a description of the project in general. What it does.
+Send URL link of our project with before 2pm to hugo@bemyapp.com. Hugo will send the info to Intel head office.
+--------
