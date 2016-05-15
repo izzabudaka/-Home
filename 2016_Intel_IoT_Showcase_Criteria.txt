@@ -1,6 +1,6 @@
 Intel IoT Roadshow Judging Criteria:
 1. How effectively does the Project Submission maximises and innovate upon the Dev Kit? (up to 50 points)
-2. How effectivelly does the Project Submission make use of the following hardware and software components of the Dev Kit?
+2. How effectively does the Project Submission make use of the following hardware and software components of the Dev Kit?
 (total of up to 40 points):
 - Cloud connectivity (up to 10 points)
 - Sensor utilization (up to 10 points)
