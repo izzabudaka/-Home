@@ -9,6 +9,14 @@ var prev = 0;
 
 // Read the input and print both the raw value and a rough lux value,
 // waiting one second between readings
+this.getLight = function(callback){
+  var lightValue = light.raw_value();
+  if(lightValue > 300){
+    callback("The light is on.");
+  } else{
+    callback("The light is off.");
+  }
+};
 
 setInterval(function() {
     var rawvalue = light.raw_value();
