@@ -8,6 +8,6 @@ this.delegateMessage = function(parsedMessage, callback) {
   for(serviceId = 0; serviceId < services.length; serviceId++)
     if(parsedMessage["intent"].indexOf(services[serviceId]) > -1) break;
   switch(serviceId){
-    case 0: temperatureService.getTempReadout(parsedMessage, callback);
+    case 0: temperatureService.run(parsedMessage, callback);
   }
 }
