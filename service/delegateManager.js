@@ -2,7 +2,7 @@ var request            = require('request');
 var temperatureService = require('./temperatureService');
 var lightService       = require('./lightService');
 var lcdService         = require('./lcdService');
-var services           = ["temperature"];
+var services           = ["temperature", "light", "message"];
 
 this.delegateMessage = function(parsedMessage, callback) {
   var serviceId;
