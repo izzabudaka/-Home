@@ -9,6 +9,7 @@ var lcdMessage="Welcome";
 var myLcd = new LCD.Jhd1313m1(6, 0x3E, 0x62);
 
 this.setMessage = function(message){
+  console.log("MESSAGE");
     lcdMessage = message["entities"]["message"];
 };
 

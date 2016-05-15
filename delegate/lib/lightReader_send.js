@@ -15,7 +15,7 @@ this.getLight = function(callback){
 
 setInterval(function() {
     var rawvalue = light.raw_value();
-    if (rawvalue > 600 && prev !== 0) { alert(rawvalue); }
+    if (rawvalue > 800 && prev !== 0) { alert(rawvalue); }
     prev = rawvalue;
     console.log(rawvalue);
 }, 1000);
