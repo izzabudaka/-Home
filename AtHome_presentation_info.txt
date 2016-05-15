@@ -13,12 +13,10 @@ Use Twilio API to receive and send text messages.
 Natural Language Processing codes to understand the context of the questions in the text message. 
 
 Features:
-Temperature: When a user sends a text message from the phone to ask for the home temperature, the sensor detect the real time temperature and 
-sends back a text with the temperature.  
-Light: Detects tge light level at home, and send a message to tell the user if the light is on or off, and also the light level.
-Motion: When a person goes past a motion sensor, a picture is taken from a Logitech webcam, with the image files stored locally. Will aim to send picture to the cloud and send a text message
-to the phone.
-LCD: The LCD display at home can display messages sent from the user's phone, telling his family updates.
+Temperature: When a user sends a text message from the phone to ask for the home temperature, the sensor detect the real time temperature and sends back a text with the temperature.  
+Light: Detects the light level at home, and send a message to tell the user if the light is on or off, and also the light level.
+Motion: When a person goes past a motion sensor, a picture is taken from a Logitech webcam, with the image files stored locally. Will aim to send picture to the cloud and send a text message to the phone.
+LCD: The LCD display at home can display messages sent from the user's phone, update his latest plans to his family.
 ------
 Message from Hugo of BeMyApp (hackathon organiser):
 Need to create a page at Instructables, add keyword "Intel IoT," and copy URL link of our project page.
