@@ -9,13 +9,28 @@ require("./lib/tempReader");
 
 console.log("Starting nodejs server.");
 
+function getPostBody(req, callback) {
+    if (req.method == 'POST') {
+        var jsonString = '';
+
+        req.on('data', function (data) {
+            jsonString += data;
+        });
+
+        req.on('end', function () {
+            callback(JSON.parse(jsonString));
+        });
+    }
+}
+
 function handler (request, response) {
     'use strict';
-    console.log("Server readout requested.");
-    var message = JSON.parse(request.body);
-    response.writeHead(200, {"Content-Type": "application/json"});
-    delegateManager.run(message, function(result){
-        response.end(JSON.stringify(result));
+    console.log(request);
+    getPostBody(request, function(message){
+        response.writeHead(200, {"Content-Type": "application/json"});
+        delegateManager.run(message, function(result){
+            response.end(JSON.stringify(result));
+        });
     });
 }
 

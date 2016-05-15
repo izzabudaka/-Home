@@ -12,6 +12,9 @@ var getTemperature = function(parsedMessage, callback) {
   request({
       uri: url,
       method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+      },
       body: JSON.stringify(parsedMessage)
     }, function (err, res, body) {
       var temperatureInfo = JSON.parse(body);
