@@ -1,22 +1,28 @@
+/*jslint node:true,vars:true,bitwise:true,unparam:true */
+
 var mraa = require ('mraa');
 var LCD  = require ('jsupm_i2clcd');
 
 var light = new mraa.Aio(3);
 var lightValue;
-var lcdMessage="Foobar";
-var myLCD = new LCD.Jhd1313m1(6, 0x3E, 0x62);
+var lcdMessage="Welcome";
+var myLcd = new LCD.Jhd1313m1(6, 0x3E, 0x62);
 
 this.setMessage = function(message){
     lcdMessage = message;
 };
 
-this.displayValue = function(){
-    lightValue  = light.read();
-    lightValue = Math.round( lightValue*.1);
-    lcdMessage = lcdMessage;
-    myLCD.setCursor(0,1);
-    console.log("Writing to consile: " + lcdMessage); 
-    myLCD.write(lcdMessage);
+var displayValue = function(callback){
+    myLcd.setCursor(0,0);
+    myLcd.setColor(255, 255, 255);
+    myLcd.write("Message:");  
+    myLcd.setCursor(1,1);
+    myLcd.write(lcdMessage);
+    if (typeof callback !== "undefined") {
+        callback("Message set to: lcdMessage");
+    }
 };
 
-setInterval(displayValue(), 500);
+this.displayValue = displayValue;
+
+setInterval(displayValue, 500);

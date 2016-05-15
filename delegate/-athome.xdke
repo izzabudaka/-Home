@@ -11,18 +11,8 @@
         "name": "-athome.xdk"
       },
       "-athome.xdke": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "previousModTime": 1463249866670,
-        "modified": 1463249866670,
-=======
-        "previousModTime": 1463279847697,
-        "modified": 1463279847697,
->>>>>>> master
-=======
-        "previousModTime": 1463284489309,
-        "modified": 1463284489309,
->>>>>>> master
+        "previousModTime": 1463287066089,
+        "modified": 1463287066089,
         "seen": true,
         "name": "-athome.xdke"
       },
@@ -39,24 +29,14 @@
         "name": "icon.png"
       },
       "main.js": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "previousModTime": 1463249521048,
-        "modified": 1463249521048,
-=======
-        "previousModTime": 1463279788293,
-        "modified": 1463279788293,
->>>>>>> master
-=======
-        "previousModTime": 1463283482408,
-        "modified": 1463283482408,
->>>>>>> master
+        "previousModTime": 1463286390732,
+        "modified": 1463286390732,
         "seen": true,
         "name": "main.js"
       },
       "package.json": {
-        "previousModTime": 1463249509872,
-        "modified": 1463249509872,
+        "previousModTime": 1463286366636,
+        "modified": 1463286366636,
         "seen": true,
         "name": "package.json"
       },
@@ -85,24 +65,14 @@
         "name": "xdk/project-info.json"
       },
       "lib/tempReader.js": {
-        "previousModTime": 1463284331872,
-        "modified": 1463284331872,
+        "previousModTime": 1463286329016,
+        "modified": 1463286329016,
         "seen": true,
         "name": "lib/tempReader.js"
       },
       "lib/serverMasterSender.js": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "previousModTime": 1463247389867,
-        "modified": 1463247389867,
-=======
-        "previousModTime": 1463279191976,
-        "modified": 1463279191976,
->>>>>>> master
-=======
         "previousModTime": 1463282972640,
         "modified": 1463282972640,
->>>>>>> master
         "seen": true,
         "name": "lib/serverMasterSender.js"
       },
@@ -113,24 +83,8 @@
         "name": "lib/accelerometer.js"
       },
       "lib/airReader.js": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "previousModTime": 1463249876249,
-        "modified": 1463249876249,
-        "seen": true,
-        "name": "lib/airReader.js"
-      }
-    },
-    "boardFileStatus": {
-      "lib/airReader.js": {
-        "previousModTime": 1463249895748
-=======
-        "previousModTime": 1463279212497,
-        "modified": 1463279212497,
-=======
         "previousModTime": 1463282972636,
         "modified": 1463282972636,
->>>>>>> master
         "seen": true,
         "name": "lib/airReader.js"
       },
@@ -147,8 +101,8 @@
         "name": "Home.xdke"
       },
       "lib/delegateManager.js": {
-        "previousModTime": 1463283608577,
-        "modified": 1463283608577,
+        "previousModTime": 1463286944054,
+        "modified": 1463286944054,
         "seen": true,
         "name": "lib/delegateManager.js"
       },
@@ -159,8 +113,8 @@
         "name": "lib/lightReader_original.js"
       },
       "lib/lightReader_send.js": {
-        "previousModTime": 1463284567945,
-        "modified": 1463284567945,
+        "previousModTime": 1463286366632,
+        "modified": 1463286366632,
         "seen": true,
         "name": "lib/lightReader_send.js"
       },
@@ -175,17 +129,17 @@
         "modified": 1463278299303,
         "seen": true,
         "name": "lib/lightReader.js"
+      },
+      "lib/lcdDisplay.js": {
+        "previousModTime": 1463287101641,
+        "modified": 1463287101641,
+        "seen": true,
+        "name": "lib/lcdDisplay.js"
       }
     },
     "boardFileStatus": {
-<<<<<<< HEAD
-      "lib/delegateManager.js": {
-        "previousModTime": 1463279925247
->>>>>>> master
-=======
-      "lib/lightReader_send.js": {
-        "previousModTime": 1463284593760
->>>>>>> master
+      "lib/lcdDisplay.js": {
+        "previousModTime": 1463287105962
       }
     }
   }

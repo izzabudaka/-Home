@@ -2,7 +2,8 @@
 
 var temp      = require('./tempReader');
 var light     = require("./lightReader_send");
-var delegates = ["temperature", "light"];
+var lcd       = require("./lcdDisplay");
+var delegates = ["temperature", "light", "lcd"];
 
 this.run = function(parsedMessage, callback) {
   var delegateId;
@@ -13,5 +14,6 @@ this.run = function(parsedMessage, callback) {
   switch(delegateId) {
     case 0: temp.getTempReadout(callback); break;
     case 1: light.getLight(callback); break;
+    case 2: lcd.setMessage(callback); break;
   }
 };
