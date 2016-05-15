@@ -12,7 +12,7 @@ console.log("Starting nodejs server.");
 function handler (request, response) {
     'use strict';
     console.log("Server readout requested.");
-    var message = JSON.parse(request);
+    var message = JSON.parse(request.body);
     response.writeHead(200, {"Content-Type": "application/json"});
     delegateManager.run(message, function(result){
         response.end(JSON.stringify(result));
