@@ -7,11 +7,12 @@ this.run = function(parsedMessage, callback){
   }
 }
 
-var getTemperature = function(parseMessage, callback) {
+var getTemperature = function(parsedMessage, callback) {
+  console.log(parsedMessage);
   request({
       uri: url,
-      method: "GET",
-      body: parsedMessage
+      method: "POST",
+      body: JSON.stringify(parsedMessage)
     }, function (err, res, body) {
       var temperatureInfo = JSON.parse(body);
       var temperature = temperatureInfo["Sensors"]["Temperature"]["Current"]["Celsius"];
