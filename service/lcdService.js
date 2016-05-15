@@ -3,7 +3,7 @@ var url = "http://172.16.41.9:8080/";
 
 this.run = function(parsedMessage, callback){
   switch(parsedMessage["intent"]){
-    case "set lcd": setLCD(parsedMessage, callback);
+    case "set message": setLCD(parsedMessage, callback);
   }
 }
 

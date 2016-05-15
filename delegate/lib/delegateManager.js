@@ -3,7 +3,7 @@
 var temp      = require('./tempReader');
 var light     = require("./lightReader_send");
 var lcd       = require("./lcdDisplay");
-var delegates = ["temperature", "light", "lcd"];
+var delegates = ["temperature", "light", "message"];
 
 this.run = function(parsedMessage, callback) {
   var delegateId;
