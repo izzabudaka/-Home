@@ -32,14 +32,15 @@ var groveSensor = require('jsupm_grove');
 // Create the light sensor object using AIO pin 0
 var light = new groveSensor.GroveLight(0);
 
-// Read the input and print both the raw value and a rough lux value,
-// waiting one second between readings
-/* function readLightSensorValue() {
-    console.log(light.name() + " raw value is " + light.raw_value() +
-            ", which is roughly " + light.value() + " lux");
-}
-setInterval(readLightSensorValue, 1000);
-*/
+this.getLight = function(callback){
+  var lightValue = light.raw_value();
+  if(lightValue > 300){
+    callback("The light is on.");
+  } else{
+    callback("The light is off.");
+  }
+};
+
 var threshold = 300;
 var prev = 0;
 
